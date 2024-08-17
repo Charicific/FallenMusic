@@ -25,6 +25,8 @@ import os
 from yt_dlp import YoutubeDL
 
 ydl_opts = {
+    "username": "charz.musicbot@gmail.com",
+    "password": "@Samy2219",
     "format": "bestaudio/best",
     "outtmpl": "downloads/%(id)s.%(ext)s",
     "geo_bypass": True,
